@@ -10,7 +10,7 @@ This project was a refactoring task in which we were given a working Web Store, 
 
 ### Required links for review and grading submission
 [Github Repository Link](https://github.com/jscobie/Redux-Store)<br>
-[Deployed Site]()
+[Heroku Deployed Site](https://murmuring-headland-77055.herokuapp.com/)
 
 
 ## Table of Contents
@@ -73,7 +73,6 @@ Credit to the MSU Bootcamp and instructors for training and training materials t
 - [NPM React Package](https://www.npmjs.com/package/react)
 - [React-Dom](https://www.npmjs.com/package/react-dom)
 - [React-Redux](https://www.npmjs.com/package/react-redux)
-
 
 ## Questions:
 *Use the following options to contact me for questions:*<br>
