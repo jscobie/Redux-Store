@@ -1,3 +1,4 @@
+const mongoose = require('mongoose');
 const db = require('./connection');
 const { User, Product, Category } = require('../models');
 require('dotenv').config();
