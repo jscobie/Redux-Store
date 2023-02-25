@@ -1,4 +1,3 @@
-// import { useReducer } from 'react';
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -11,6 +10,7 @@ import {
   TOGGLE_CART,
 } from './actions';
 
+//Set up Initial State, as was previously done in Global State
 const initalState = {
   products: [],
   cart: [],
@@ -26,6 +26,7 @@ export default function reducer(state = initalState, action) {
         ...state,
         products: [...action.products],
       };
+
     case ADD_TO_CART:
       return {
         ...state,
@@ -68,6 +69,7 @@ export default function reducer(state = initalState, action) {
         ...state,
         cartOpen: !state.cartOpen,
       };
+
     case UPDATE_CATEGORIES:
       return {
         ...state,
@@ -78,7 +80,8 @@ export default function reducer(state = initalState, action) {
         ...state,
         currentCategory: action.currentCategory,
       };
+
     default:
       return state;
   }
-};
+}
