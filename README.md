@@ -6,8 +6,7 @@
 ## Description
 
 This project was a refactoring task in which we were given a working Web Store, which was to be converted from context API to Redux to manage the state of the site.
-
-
+![Store running image](./assets/Redux-Store-Running.gif)
 
 ### Required links for review and grading submission
 [Github Repository Link](https://github.com/jscobie/Redux-Store)<br>
